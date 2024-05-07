@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ダークモードの基本設定 */
+body {
+  background-color: #121212; /* ダークグレーの背景色 */
+  color: #e0e0e0; /* 明るいグレーのテキスト色 */
+}
+
+/* リンクの色設定 */
+a {
+  color: #bb86fc; /* 明るい紫 */
+}
+
+a:hover {
+  color: #3700B3; /* 濃い紫 */
+}
+
+/* ナビゲーションバーの色設定 */
+nav {
+  background-color: #333333; /* 濃いグレー */
+}
+
+/* ナビゲーションリンクのアクティブ状態 */
+.nav-active {
+  border-color: #03DAC6; /* 明るいシアン */
+}
+/* フォーム要素のダークモードスタイル */
+input, textarea, select {
+  background-color: #333333; /* 濃いグレーの背景色 */
+  color: #e0e0e0; /* 明るいグレーのテキスト色 */
+  border: 1px solid #555555; /* より暗いグレーの境界線 */
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #03DAC6; /* フォーカス時に明るいシアンの境界線 */
+  outline: none; /* アウトラインを削除 */
+}
